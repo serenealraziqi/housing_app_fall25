@@ -1,0 +1,4 @@
+Summary
+
+This project demonstrates a full end-to-end classification pipeline:
+normalized DB → SQL JOIN → Pandas → 16 experiments (MLflow/DagsHub) → best model saved → FastAPI inference → Streamlit UI.
