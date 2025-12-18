@@ -2,3 +2,36 @@ Summary
 
 This project demonstrates a full end-to-end classification pipeline:
 normalized DB → SQL JOIN → Pandas → 16 experiments (MLflow/DagsHub) → best model saved → FastAPI inference → Streamlit UI.
+Telco Customer Churn Prediction (Classification) — FastAPI + Streamlit + SQLite + MLflow (DagsHub)
+
+This project replaces the instructor’s regression example with a classification problem: predicting customer churn using the Telco Customer Churn dataset.
+
+Prediction goal:
+Given customer attributes, predict Churn:
+    •    0 = Not churn
+    •    1 = Churn
+
+⸻
+
+What my code does
+    1.    Loads the Telco dataset
+    2.    Builds a normalized (3NF) SQLite database
+    3.    Uses a SQL JOIN to create a Pandas DataFrame for modeling
+    4.    Runs the required experiments and logs results to MLflow on DagsHub
+    5.    Saves the best model to models/model.joblib for deployment
+    6.    Deploys:
+    •    FastAPI backend (/predict)
+    •    Streamlit frontend (user inputs → API call → prediction)
+Experiments are run using 4 classification algorithms, each under 4 conditions:
+
+Algorithms:
+    •    Logistic Regression
+    •    Ridge Classifier
+    •    Random Forest
+    •    XGBoost Classifier
+
+Conditions:
+    •    PCA + no tuning
+    •    PCA + Optuna tuning
+    •    No PCA + no tuning
+    •    No PCA + Optuna tuning
