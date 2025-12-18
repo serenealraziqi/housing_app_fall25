@@ -1,0 +1,6 @@
+artifact_location: file:///content/drive/MyDrive/housing_app_fall25/mlruns/754004513361699938
+creation_time: 1765945409934
+experiment_id: '754004513361699938'
+last_update_time: 1765945409934
+lifecycle_stage: active
+name: telco_churn_optuna

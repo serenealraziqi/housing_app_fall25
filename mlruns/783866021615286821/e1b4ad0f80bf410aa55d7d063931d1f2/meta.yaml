@@ -1,0 +1,15 @@
+artifact_uri: file:///content/drive/MyDrive/housing_app_fall25/mlruns/783866021615286821/e1b4ad0f80bf410aa55d7d063931d1f2/artifacts
+end_time: 1765944698338
+entry_point_name: ''
+experiment_id: '783866021615286821'
+lifecycle_stage: active
+run_id: e1b4ad0f80bf410aa55d7d063931d1f2
+run_name: ridge_standard
+run_uuid: e1b4ad0f80bf410aa55d7d063931d1f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765944692847
+status: 3
+tags: []
+user_id: root

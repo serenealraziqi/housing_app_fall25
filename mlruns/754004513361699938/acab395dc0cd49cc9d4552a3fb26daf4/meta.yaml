@@ -1,0 +1,15 @@
+artifact_uri: file:///content/drive/MyDrive/housing_app_fall25/mlruns/754004513361699938/acab395dc0cd49cc9d4552a3fb26daf4/artifacts
+end_time: 1765945672700
+entry_point_name: ''
+experiment_id: '754004513361699938'
+lifecycle_stage: active
+run_id: acab395dc0cd49cc9d4552a3fb26daf4
+run_name: xgb_PCA_optuna_params
+run_uuid: acab395dc0cd49cc9d4552a3fb26daf4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765945672398
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,6 @@
+artifact_location: file:///content/drive/MyDrive/housing_app_fall25/mlruns/783866021615286821
+creation_time: 1765944670866
+experiment_id: '783866021615286821'
+last_update_time: 1765944670866
+lifecycle_stage: active
+name: telco_churn_classification

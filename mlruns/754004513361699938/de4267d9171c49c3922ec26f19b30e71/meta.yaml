@@ -1,0 +1,15 @@
+artifact_uri: file:///content/drive/MyDrive/housing_app_fall25/mlruns/754004513361699938/de4267d9171c49c3922ec26f19b30e71/artifacts
+end_time: 1765945539303
+entry_point_name: ''
+experiment_id: '754004513361699938'
+lifecycle_stage: active
+run_id: de4267d9171c49c3922ec26f19b30e71
+run_name: rf_NO_PCA_best
+run_uuid: de4267d9171c49c3922ec26f19b30e71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765945531323
+status: 3
+tags: []
+user_id: root
